@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,81 +8,98 @@
     <title>Document</title>
 </head>
 <style>
-    .dog{
+    .dog {
         display: flex;
-    justify-content: space-between;
+        justify-content: space-between;
     }
-.ex2{
-    text-align: center;
-    color: blue;
-}
-.ex2 form >  div {
 
-    margin-top: 30px;
-}
-label{
-    display: block;
-}
-.checkbox label{
-    display: contents;
-}
-span{
-    color: red;
-    font-weight: bold;
-}
+    .ex2 {
+        text-align: center;
+        color: blue;
+    }
+
+    .ex2 form>div {
+
+        margin-top: 30px;
+    }
+
+    label {
+        display: block;
+    }
+
+    .checkbox label {
+        display: contents;
+    }
+
+    span {
+        color: red;
+        font-weight: bold;
+    }
+    .background{
+        
+    }
+    #grad5 {
+        height: 50px;
+        background-image: repeating-linear-gradient(145deg, black 1px, rgb(255, 255, 255) 10px, rgb(150, 69, 216) 10px, rgb(29, 29, 20) 10px, rgb(78, 8, 255) 20px);
+        background-size: 50px 50px;
+    }
 </style>
+
 <body>
     <div class="dog">
         <table border="10">
             <tr>
-              <th>Company</th>
-              <th colspan="3">Contact</th>
-              <th>Country</th>
+                <th>Company</th>
+                <th colspan="3">Contact</th>
+                <th>Country</th>
             </tr>
             <tr>
-              <td rowspan="3">Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-              <td>Mexico</td>
-              <td>Mexico</td>
+                <td rowspan="3">Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+                <td>Mexico</td>
+                <td>Mexico</td>
             </tr>
             <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-              <td rowspan="2">Mexico</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td rowspan="2">Mexico</td>
             </tr>
             <tr>
                 <td colspan="3">Centro comercial Moctezuma</td>
             </tr>
-          </table>
-          <img src="https://www.insidedogsworld.com/wp-content/uploads/2016/03/Dog-Pictures.jpg" width="400px" height="300px" alt="Dog"/>
+        </table>
+        <img src="https://www.insidedogsworld.com/wp-content/uploads/2016/03/Dog-Pictures.jpg" width="400px"
+            height="300px" alt="Dog" />
     </div>
 
 
-      <br><br><hr><br><br>
-      <div style="  background: linear-gradient(
+    <br><br>
+    <hr><br><br>
+    <div style="  background: linear-gradient(
         to top,
         lime 25%,
         red 25% 50%,
         cyan 50% 75%,
         yellow 75%
       ); height: 500px;">
-      </div>
+    </div>
 
-      <br><br><hr><br><br>
+    <br><br>
+    <hr><br><br>
 
-      <div class="ex2">
+    <div class="ex2">
         <h2>Dentit Appointment Reservation Form</h2>
         <div>
             <h3>*Mandatory fields</h3>
             <form action="">
                 <div>
-                    <label >Full name * : </label >
+                    <label>Full name * : </label>
                     <input type="text" placeholder="FirstName LastName">
                 </div>
                 <div>
-                    <label >Email address * : </label >
+                    <label>Email address * : </label>
                     <input type="email" placeholder="johnDoe@example">
                 </div>
                 <div>
@@ -90,17 +108,17 @@ span{
                         <option value="saab">Saab</option>
                         <option value="mercedes">Mercedes</option>
                         <option value="audi">Audi</option>
-                      </select>
+                    </select>
                 </div>
                 <div>
-                    <label >Appointment date * : </label >
-                    <input type="date" >
+                    <label>Appointment date * : </label>
+                    <input type="date">
                 </div>
-                <div  class="checkbox">
-                    <label >Doctor's preferred gender * : </label><br>
+                <div class="checkbox">
+                    <label>Doctor's preferred gender * : </label><br>
                     <input type="checkbox">
                     <label>Male</label><br>
-                    <input type="checkbox" >
+                    <input type="checkbox">
                     <label>Female</label>
                 </div>
                 <div>
@@ -108,7 +126,7 @@ span{
                     <textarea>Enter text here</textarea>
                 </div>
                 <div class="checkbox">
-                    <label >Terms and conditins * : </label><br>
+                    <label>Terms and conditins * : </label><br>
                     <input type="checkbox">
                     <label>I agree</label>
                     <input type="checkbox">
@@ -117,9 +135,10 @@ span{
                 <input type="submit" value="Complete reservation">
             </form>
         </div>
-      </div>
-      <br><br><hr><br><br>
-      <div>
+    </div>
+    <br><br>
+    <hr><br><br>
+    <div>
         <h1>Dog D . Dog </h1>
 
         <div>
@@ -167,7 +186,7 @@ span{
                     <td>User Interface Design</td>
                     <td>Spring 2014</td>
                 </tr>
-              </table>
+            </table>
         </div>
         <div>
             <h2 style="background-color: bisque;">Interests</h2>
@@ -176,29 +195,33 @@ span{
         <div>
             <h2 style="background-color: bisque;">Submit Pet Information</h2>
             <p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
-        <form>
-            <div style="display: flex;">
-                <label for="">Name : </label>
-                <input type="text">
-            </div>
-            <div style="display: flex;">
-                <label for="">Phylum : </label>
-                <input type="text">
-            </div>
-            <div style="display: flex;">
-                <label for="">Gender : </label>
-                <input type="text">
-            </div>
-
-
-
-            <input type="submit">
-        </form>
+            <form>
+                <div style="display: flex;">
+                    <label for="">Name : </label>
+                    <input type="text">
+                </div>
+                <div style="display: flex;">
+                    <label for="">Phylum : </label>
+                    <input type="text">
+                </div>
+                <div style="display: flex;">
+                    <label for="">Gender : </label>
+                    <input type="text">
+                </div>
+                <input type="submit">
+            </form>
         </div>
-      </div>
-</body>
+    </div>
+
+    <br><br><hr><br><br>
+    <div class="background">
+        <div id="grad5"></div>
+        <div id="grad5"></div>
+        <div id="grad5"></div>
+        <div id="grad5"></div>
+        <div id="grad5"></div>
+
+    </div>
+ </body>
+
 </html>
-
-
-
-
