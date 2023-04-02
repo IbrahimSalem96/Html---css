@@ -21,6 +21,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+     .flex-artical{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
      }
     .header{
         width: 100%;
@@ -28,12 +34,12 @@
         background-color: #98d1c7;
     }
     .aside{
-        width: calc(50% - 30px);
+        width: calc(30% - 30px);
         height: 50vh;
         background-color: #62b7b6;
     }
     .artical{
-        width: 50%;
+        width: 70%;
         height: 50vh;
         background-color: #fa7a7b;
     }
@@ -47,27 +53,34 @@
         height: 100px;
         padding: 10px;
     }
-    .artical-img{
-        height: 100%;
+    .artical-box{
         display: flex;
-        justify-content: center;
-        align-items: end;
+
     }
+
 </style>
 <body>
 
 <div class="container">
     <div class="flex-items header">header</div>
     <div class="flex-items aside">aside</div>
-    <div class=" artical">
-        <div class="artical-img">
+    <div class="flex-artical artical">
+        <div class="artical-text">
+            artical
+        </div>
+        <div class="artical-box">
             <img src="https://s3.amazonaws.com/oodles-technologies1/blog-images/ae0d3094-531f-4ee6-a98b-b22060827299.png" alt="flexbox"/>
             <img src="https://s3.amazonaws.com/oodles-technologies1/blog-images/ae0d3094-531f-4ee6-a98b-b22060827299.png" alt="flexbox"/>
             <img src="https://s3.amazonaws.com/oodles-technologies1/blog-images/ae0d3094-531f-4ee6-a98b-b22060827299.png" alt="flexbox"/>
         </div>
+
     </div>
     <div class="flex-items footer">footer</div>
 </div>
+<div class="artical-imgt">
+
+</div>
+
     <nav aria-label="pagination">
         <ul class="pagination">
             <li><a href="index.html">1</a></li>
