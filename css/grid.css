@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.Grid-all, .flex-all{
+ padding: 30px;
+}
+summary{
+  padding: 10px;
+  border: 2px solid #00000038;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+summary:hover{
+  font-size: 40px;
+  padding: 9px;
+  transition: all 0.3s;
+  background-color: #00000038;
+}
+summary:hover img{
+  width: 300px;
+}
 
-
+summary img{
+  max-width: 100px;
+}
 .pag {
     display: flex;
     justify-content: center;
