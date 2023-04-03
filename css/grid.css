@@ -545,33 +545,42 @@ button:hover {
   padding: 50px;
   gap: 50px;
 }
-.moon .center{
+
+.moon .center {
   width: 1000px;
   display: flex;
   justify-content: center;
   gap: 50px;
   margin: auto;
- }
+}
+
 .moon img {
   width: 300px;
   height: 300px;
-}   
-.moon .description h2{
-  margin: 0;
-   border-bottom: 3px solid black;
 }
- 
 
- 
+.moon .description h2 {
+  margin: 0;
+  border-bottom: 3px solid black;
+}
 
 
-.flex-center{
+
+
+
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.center1, .center2, .center3, .center4, .center5, .center6{
+
+.center1,
+.center2,
+.center3,
+.center4,
+.center5,
+.center6 {
   background-color: gray;
   display: flex;
   justify-content: center;
@@ -579,27 +588,33 @@ button:hover {
   font-size: 30px;
   color: white;
 }
-.center1{
+
+.center1 {
   width: 100px;
   height: 20vh;
 }
-.center2{
+
+.center2 {
   width: 100px;
   height: 30vh;
 }
-.center3{
+
+.center3 {
   width: 100px;
   height: 15vh;
 }
-.center4{
+
+.center4 {
   width: 100px;
   height: 35vh;
 }
-.center5{
+
+.center5 {
   width: 100px;
   height: 50vh;
 }
-.center6{
+
+.center6 {
   width: 100px;
   height: 20vh;
-}    
+}
